@@ -9,7 +9,6 @@ import UIKit
 import CoreData
 class Home: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFetchedResultsControllerDelegate {
    
-
     @IBOutlet weak var tabla: UITableView!
     var notas = [Notas]()
     var fetchResultController : NSFetchedResultsController<Notas>!
